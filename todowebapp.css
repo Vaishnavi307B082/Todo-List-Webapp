@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    margin:0; 
+    padding:0;
+}
+body{
+    background: linear-gradient(black,gray);
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+}
+
+.container{
+    
+    max-width:450px;
+    width: 100%;
+    display: block;
+    margin-left: 33rem;
+    margin-top: 13rem;
+    background-color:#fff;
+}
+
+
+.header{
+ margin: 0px;
+ size: 2px;;
+ padding-top: 24px;
+ width: 50 px;
+ height: 2cm;
+ text-align: center;
+ background-color: rgb(19, 236, 243);
+ 
+}
+
+.input{
+    display: block;
+    padding: 20px;
+    border-radius: 2px;
+    text-align: center;
+}
+.input input{
+    padding: 8px;
+    width: 70%;
+}
+#addbtn{
+    padding: 8px;
+    width: 50px;
+    background-color:rgb(76, 93, 243);
+    color: #fff;
+   /* opacity: 0.6;
+    pointer-events: none;*/
+}
+
+#addbtn:hover{
+    background:rgb(151, 175, 240);
+}
+.list{
+    
+    text-align: center;
+    margin: 1px;
+    background-color: rgb(207, 246, 252);
+    list-style: none;
+    
+}
+.list ul {
+    margin: 5px;
+    padding: 5px;
+    list-style: none;
+}
+.list li{
+    background-color: rgb(241, 248, 248);
+    padding:10px;
+    margin: 10px;
+    position: relative;
+}
+.list li span{
+    background-color: rgb(76, 93, 243);
+    color: #fff;
+    size: 20px;
+    position: absolute ;
+    width: 40px;
+    height: 30px;
+    right: -0.05px;
+}
+.list li span:hover{
+    background-color: rgb(4, 13, 95);
+}
+.container .list{
+    overflow-y:auto;
+    max-height: 200px;
+}
+.butn{
+    background-color:rgb(19, 236, 243);
+    text-align: center;
+    padding: 10px;
+}
+/*#btn1:hover {  
+    background-color:rgb(76, 93, 243);   
+}*/
+#btn2:hover {
+    background-color:rgb(76, 93, 243);
+    
+}
+/*#btn1{
+    font-size: 15px;
+    padding: 6px;
+    width: 200px;
+    color:black;
+}*/
+#btn2{
+    font-size: 15px;
+    padding: 6px;
+    margin: 5px 5px 5px 20px;
+    right: -40px;
+    width: 100px;
+    color: black;
+}
